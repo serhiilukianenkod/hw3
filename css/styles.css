@@ -1,3 +1,13 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
 .container {
     font-family: 'Playfair Display', serif;
     font-size: 14px;
@@ -10,10 +20,9 @@
 .menu {
     text-transform: uppercase;
     line-height: 24px;
-}
-
-ul {
     text-align: center;
+    margin: 0px 0px 100px 0px;
+    padding: 0px;
 }
 
 .menu__link {
@@ -27,23 +36,56 @@ ul {
 .menu__item {
     display: inline-block;
     color: #626262;
-    padding: 30px;
+    margin-right: 100px;
+}
+ 
+
+
+.menu__item:last-child {
+    margin-right: 0px;
 }
 
 main {
+    font-size: 0px;
+}
+ 
+.features {
+    margin: 0px;
+    padding: 0px;
+}
+
+.cards {
+    margin: 0px;
+    padding: 0px;
     font-size: 0px;
 }
 
 .card {
     display: inline-block;
     vertical-align: top;
-    margin-top: 90px;
-    margin-left: 30px;
+    margin-right: 61px;
+    margin-bottom: 132px;
     width: 420px;
     font-size: 16px;
 }
 
+.card:nth-last-child(-n+2) {
+    margin-bottom: 0px;
+}
+
+.card img {
+    margin-bottom: 32px;
+}
+
+.card p {
+    margin-bottom: 0px;
+}
+.card:nth-child(2n) {
+    margin-right: 0px;
+}
+
 figure {
+    margin-top: 0px;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
