@@ -1,58 +1,54 @@
-body {
+.container {
     font-family: 'Playfair Display', serif;
     font-size: 14px;
     font-weight: 400;
     width: 901px;
-    margin-left: 150px;
-    margin: auto;
+    margin: 0 auto;
     color: #626262;
 }
 
 .menu {
-    display: block;
-    width: 660px;
     text-transform: uppercase;
     line-height: 24px;
-    margin: auto;
 }
 
-.menu a {
+ul {
+    text-align: center;
+}
+
+.menu__link {
     text-decoration: none;
 }
 
-.item {
+.menu__link:hover {
+    color: #03a9f4;
+}
+
+.menu__item {
     display: inline-block;
     color: #626262;
-    width: 140px;
+    padding: 30px;
 }
 
-.rov {
-    display: block;
-    margin-top: 90px;
-    vertical-align: top;
+main {
+    font-size: 0px;
 }
 
-.rov div {
+.card {
     display: inline-block;
-}
-
-.left {
+    vertical-align: top;
+    margin-top: 90px;
+    margin-left: 30px;
     width: 420px;
-    margin-top: 0px;
-    margin-right: 57px;
-    margin-bottom: 0px;
-    margin-left: 0px;
+    font-size: 16px;
 }
 
-.right {
-    width: 420px;
-    margin-top: 0px;
-    margin-right: 0px;
-    margin-bottom: 0px;
-    margin-left: 0px;
+figure {
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
 
-.link {
+figcaption {
     font-family: 'Ubuntu', sans-serif;
     font-size: 14px;
     font-weight: 300;
@@ -60,15 +56,15 @@ body {
     text-transform: uppercase;
 }
 
-strong {
-    font-size: 30px; 
+h1 {
+    font-size: 30px;
 }
 
 p {
- line-height: 24px;
+    line-height: 24px;
 }
 
-.button div {
+.button-wrapper div {
     display: block;
 }
 
@@ -79,7 +75,7 @@ button {
     background: none;
     height: 60px;
     width: 165px;
-    font-size: 20px; 
+    font-size: 20px;
     border: 1px solid #626262;
 
 }
