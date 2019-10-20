@@ -30,7 +30,9 @@ html {
     text-decoration: none;
 }
 
-.menu__link:hover {
+.menu__link:hover,
+.menu__link:focus
+ {
     color: #03a9f4;
 }
 
@@ -120,5 +122,6 @@ button {
     width: 165px;
     font-size: 20px;
     border: 1px solid #626262;
+    cursor: pointer;
 
 }
