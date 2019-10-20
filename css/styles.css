@@ -1,0 +1,85 @@
+body {
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    font-weight: 400;
+    width: 901px;
+    margin-left: 150px;
+    margin: auto;
+    color: #626262;
+}
+
+.menu {
+    display: block;
+    width: 660px;
+    text-transform: uppercase;
+    line-height: 24px;
+    margin: auto;
+}
+
+.menu a {
+    text-decoration: none;
+}
+
+.item {
+    display: inline-block;
+    color: #626262;
+    width: 140px;
+}
+
+.rov {
+    display: block;
+    margin-top: 90px;
+    vertical-align: top;
+}
+
+.rov div {
+    display: inline-block;
+}
+
+.left {
+    width: 420px;
+    margin-top: 0px;
+    margin-right: 57px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+.right {
+    width: 420px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+.link {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #b4ad9e;
+    text-transform: uppercase;
+}
+
+strong {
+    font-size: 30px; 
+}
+
+p {
+ line-height: 24px;
+}
+
+.button div {
+    display: block;
+}
+
+button {
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    background: none;
+    height: 60px;
+    width: 165px;
+    font-size: 20px; 
+    border: 1px solid #626262;
+
+}
